@@ -1,0 +1,70 @@
+function setDate() {
+    document.getElementById('date').innerHTML = new Date().toDateString();
+}
+
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: cyan;
+}
+
+img {
+    width: 300px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin-top: 15px;
+}
+
+.section-style {
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color:cyan;
+}
+
+
+
+<html>
+
+<head>
+    <title>Save Trees</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="setDate()">
+    <h1>Hello,Welcome To My Photography World!</h1>
+    <h4 id='date'></h4>
+    <div class="image-section">
+        <div class="section-style">
+            <img src="tree.jpg">
+            <p>By discovering nature, you discover yourself. Maxime Lagacé</p>
+        </div>
+
+        <div class="section-style">
+            <img src="plants.jpg">
+            <p>Adopt the pace of nature. Her secret is patience. Ralph Waldo Emerson</p>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <div class="section-style">
+            <img src=1030_LL_trees.png>
+            <p>Going to the mountains is going home. John Muir</p>
+        </div>
+
+        <div class="section-style">
+            <img src=Difference-Between-Plant-and-Tree-image-2.jpg.crdownload>
+            <p>Nature is pleased with simplicity. And nature is no dummy. Isaac Newton</p>
+        </div>
+    </div>
+</body>
+
+</html>
